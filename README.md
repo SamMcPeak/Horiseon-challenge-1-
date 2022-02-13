@@ -12,8 +12,7 @@ submit pull request to download code, to use for your own purposes.
 
 ## usage
 
-follow the url to intereact with the website.
-
+follow the url to intereact with the website. url:https://sammcpeak.github.io/Horiseon-challenge-1-/
 ## credits
 
   Basecode provided by OSU Online Bootcamp. Changes made to original html and css include:
