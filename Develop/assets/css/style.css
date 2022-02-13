@@ -22,6 +22,8 @@ body {
 }
 /* took out the seo class so i removed the css style for it and added the color to the .header h1 section */
 
+
+/*since i changed the div elements to nav i needed to change the selector to div too*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
