@@ -41,13 +41,10 @@ body {
     margin-left: 25px;
 }
 
+/* specified the a and p to id header and content so that it didnt effect the whole page*/
 .header a {
     color: #ffffff;
     text-decoration: none;
-}
-
-.content p {
-    font-size: 16px;
 }
 
 .hero {
@@ -59,6 +56,9 @@ body {
     background-position: center;
 }
 
+.content p {
+    font-size: 16px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,6 +73,27 @@ body {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+/*moved the content section up so that the style sheet is in the same order as the html sheet*/
+/*changed the class to content so i could consolidate the 3 classes into 1*/
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*changed the class to content so i could consolidate the 3 classes into 1*/
+.content img {
+    max-height: 200px;
+}
+
+/* changed the class to content so i could consolidate the 3 classes into 1*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -102,28 +123,6 @@ body {
     margin: 10px auto;
     max-width: 150px;
 }
-
-/*changed the class to content so i could consolidate the 3 classes into 1*/
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*changed the class to content so i could consolidate the 3 classes into 1*/
-.content img {
-    max-height: 200px;
-}
-
-/* changed the class to content so i could consolidate the 3 classes into 1*/
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 
 .footer {
     padding: 30px;
